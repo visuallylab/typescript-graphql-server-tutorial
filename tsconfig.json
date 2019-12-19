@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "lib": [
+      "es7",
+      "esnext"
+    ],
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "baseUrl": ".",
+    "typeRoots": ["node_modules/@types", "./src/typings"],
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "strict": true,
+    "strictPropertyInitialization" : false,
+    "sourceMap": true,
+    "outDir": "build",
+    "allowJs": true,
+    "removeComments": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true
+  },
+  "include": [
+    "src/**/*",
+    "test/*"
+  ]
+}
